@@ -1,0 +1,19 @@
+header{
+    background-color: lightblue;
+    margin-bottom: 10px;
+}
+
+img {
+    width : 200px;
+}
+.row .card{
+    background-color: green;
+    min-width: 200px;
+    cursor: pointer;
+    transition: transform linear 0.5s;
+    border-radius : 20px;
+}
+
+.row .card:hover{
+    transform : scale(1.05);
+}
